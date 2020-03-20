@@ -4,12 +4,15 @@ interface Person {
 }
 
 const a: Person = {
-  name: "tom"
+  name: "tom",
+  age: 23
 };
-
-function f(a) {
+a;
+function f(p: any) {
   //
+  p;
 }
+f;
 
 interface A {
   key: string;
