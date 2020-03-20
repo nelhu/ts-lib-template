@@ -15,6 +15,11 @@
     "lint:fix": "eslint --fix 'src/**/*.ts'",
     "watch": "yarn tsc -w --noEmit"
   },
+  "husky": {
+    "hooks": {
+      "pre-commit": "echo 'hi~~~'"
+    }
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/nelhu/ts-lib-template.git"
@@ -34,6 +39,7 @@
     "eslint": "^6.8.0",
     "eslint-config-prettier": "^6.10.0",
     "eslint-plugin-prettier": "^3.1.2",
+    "husky": "^4.2.3",
     "lodash.camelcase": "^4.3.0",
     "prettier": "^1.19.1",
     "rollup": "^2.1.0",
