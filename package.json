@@ -17,11 +17,11 @@
   },
   "husky": {
     "hooks": {
-      "pre-commit": "echo 'hi~~~'"
+      "pre-commit": "lint-staged"
     }
   },
   "lint-staged": {
-    "src/**/*.ts": "lint"
+    "src/**/*.ts": "yarn run lint"
   },
   "repository": {
     "type": "git",
@@ -43,7 +43,7 @@
     "eslint-config-prettier": "^6.10.0",
     "eslint-plugin-prettier": "^3.1.2",
     "husky": "^4.2.3",
-    "lint-staged": "^10.0.8",
+    "lint-staged": "8.0.5",
     "lodash.camelcase": "^4.3.0",
     "prettier": "^1.19.1",
     "rollup": "^2.1.0",
