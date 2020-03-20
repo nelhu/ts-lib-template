@@ -12,8 +12,8 @@
     "experimentalDecorators": true,
     "emitDecoratorMetadata": true,
     "declaration": true,
-    "declarationDir": "dist/typess",
-    "outDir": "dist/lib",
+    "declarationDir": "dist/types",
+    "outDir": "dist",
     "typeRoots": [
       "node_modules/@types"
     ]

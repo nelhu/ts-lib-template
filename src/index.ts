@@ -17,3 +17,5 @@ f;
 interface A {
   key: string;
 }
+
+export default a;

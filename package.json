@@ -1,10 +1,12 @@
 {
-  "name": "ts-lib-template",
+  "name": "@nelhu/ts-lib-template",
   "version": "1.0.0",
   "description": "typescript库模板配置",
   "keywords": [],
-  "main": "index.js",
-  "files": [],
+  "main": "dist/bundle.umd.js",
+  "module": "dist/bundle.esm.js",
+  "typings": "dist/types/index.d.ts",
+  "files": ["dist"],
   "scripts": {
     "start": "rollup -c -w",
     "build": "rollup -c",
